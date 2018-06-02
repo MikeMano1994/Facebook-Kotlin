@@ -79,6 +79,7 @@ class FacebookActivity : AppCompatActivity() {
                     name.setText("")
                     email.setText("")
                     gender.setText("")
+                    picture.visibility = View.GONE
                     facebook_logout.visibility = View.INVISIBLE
                     facebook_login.visibility = View.VISIBLE
 
